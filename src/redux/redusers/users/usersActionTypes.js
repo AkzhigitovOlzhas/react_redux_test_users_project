@@ -1,4 +1,4 @@
-export const usersActionTypes = {
+const usersActionTypes = {
   USERS_LOAD_START: "USERS_LOAD_START",
   USERS_LOAD_SUCCESS: "USERS_LOAD_SUCCESS",
   USERS_LOAD_ERROR: "USERS_LOAD_ERROR",
@@ -6,3 +6,4 @@ export const usersActionTypes = {
   LOAD_CURRENT_USER_SUCCESS: "LOAD_CURRENT_USER_SUCCESS",
   LOAD_CURRENT_USER_ERROR: "LOAD_CURRENT_USER_ERROR",
 };
+export default usersActionTypes;

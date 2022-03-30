@@ -26,6 +26,7 @@ export const SingUpForm = () => {
     dispatch(asyncSignUp(values));
   };
 
+  /* eslint-disable no-template-curly-in-string */
   const validateMessages = {
     required: "${label} is required!",
     types: {

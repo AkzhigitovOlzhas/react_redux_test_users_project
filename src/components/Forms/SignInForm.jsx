@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Form, Input, Button, Alert } from "antd";
 import { useDispatch, useSelector } from "react-redux";
 import { asyncSignIn } from "../../redux/redusers/auth/authThunk";
@@ -12,6 +12,7 @@ export const SignInForm = () => {
     dispatch(asyncSignIn(values));
   };
 
+  /* eslint-disable no-template-curly-in-string */
   const validateMessages = {
     required: "${label} is required!",
     types: {

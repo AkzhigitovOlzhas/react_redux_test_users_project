@@ -1,4 +1,4 @@
-import { usersActionTypes } from "./usersActionTypes";
+import usersActionTypes from "./usersActionTypes";
 
 const defaultState = {
   users: [],
